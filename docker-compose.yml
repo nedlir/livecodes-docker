@@ -1,0 +1,6 @@
+services:
+  livecodes:
+    build: .
+    ports:
+      - "9210:80"
+    restart: unless-stopped
