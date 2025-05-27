@@ -1,3 +1,15 @@
+This fork contains docker files (the <sup>`Dockerfile`</sup> and <sup> `docker-compose.yaml`</sup>) configured with two stages to setup livecodes locally as self hosted service accesssible form browser from <sub>port 9210</sub>
+
+To start clone this and run 
+``` 
+#on windows:
+docker-compose up
+
+# on Linux 
+sudo docker compose up 
+``` 
+
+What is Livecodes? answered in the version of this fork's readme:
 # LiveCodes
 
 A Code Playground That Just Works!
